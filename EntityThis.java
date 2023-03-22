@@ -21,7 +21,7 @@ interface Entity{
     private void create();
 
     /**
-     * reads the entry values from the specified primary key 
+     * reads the entry values specified by the primary key from the Entity table 
      * @param primary_key (int)
      * @return string array of all the read values
      */
@@ -59,7 +59,7 @@ interface Entity{
 public class EntityThis implements Entity{
     //This_pk | This_abc | This_def | This_ghi | This_jkl <- column names 
     // fields
-    private int pk;
+    private int primary_key;
     private String abc;
     private String def;
     private String ghi;
@@ -77,13 +77,13 @@ public class EntityThis implements Entity{
     /**
      * creates an EntityThis object
      * filling in the fields based upon the user given values
-     * @param   pk
+     * @param   primary_key
      * @param   abc
      * @param   def
      * @param   ghi
      * @param   jkl
      */
-    public EntityThis(int pk, String abc, String def, String ghi, String jkl){
+    public EntityThis(int primary_key, String abc, String def, String ghi, String jkl){
     }
 
     private void create(){

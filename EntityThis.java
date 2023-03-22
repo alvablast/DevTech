@@ -11,7 +11,7 @@
  * 
  */
 
-import java.mySQL.*;
+import java.sql.*;
 
 interface Entity{
 

@@ -1,5 +1,5 @@
 /**
- * ThisEntity class
+ * EntityThis class
  * User modifies the values of the instance and then can save, load, or delete the related entry from
  * the This table as described in the DevTech1 assignment
  * 
